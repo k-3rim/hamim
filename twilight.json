@@ -1029,7 +1029,32 @@
             "title": "hamim banner",
             "icon": "sicon-image1",
             "path": "hammim.baner",
-            "fields": []
+            "fields": [
+                {
+                    "id": "hamim.banner",
+                    "type": "string",
+                    "format": "image",
+                    "label": "hamim.banner.pcc",
+                    "description": "pc banner 1920*1080",
+                    "labelHTML": null,
+                    "placeholder": "e.g. https://hostname.com/image.png",
+                    "icon": "sicon-image",
+                    "value": null,
+                    "required": false
+                },
+                {
+                    "id": "imagehamim.banner.mobile",
+                    "type": "string",
+                    "format": "image",
+                    "label": "hamim.banner.mobile",
+                    "description": "mobile banner 1080*900",
+                    "labelHTML": null,
+                    "placeholder": "e.g. https://hostname.com/image.png",
+                    "icon": "sicon-image",
+                    "value": null,
+                    "required": false
+                }
+            ]
         }
     ],
     "support_url": "https://example.com",
